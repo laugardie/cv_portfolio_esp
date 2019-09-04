@@ -14,7 +14,7 @@
 }
 
 .project-view img {
-  max-height: 600px;
+  
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -80,13 +80,13 @@
 }
 
 #image-card1{
-  background-image: url(../img/big_shot_3_4x.png)
+  background-image: url(../img/goeat.png)
 }
 #image-card2{
-  background-image: url(../img/big_shot_3_4x.png)
+  background-image: url(../img/pausaappmain.png)
 }
 #image-card3{
-  background-image: url(../img/big_shot_3_4x.png)
+  background-image: url(../img/whatsappappmai.png)
 }
 
 .read-more-small {
@@ -135,6 +135,32 @@ video {
   align-self: center;
 }
 
+p a{
+  color: rgba(38, 38, 38, 0.8);
+}
+
+p a:hover {
+  color: #d2a0a4;
+}
+
+.numberlist {
+  font-size: 20px;
+  line-height: 40px;
+  margin-left: 30px;
+  list-style-type: decimal;
+}
+
+.gif{
+  max-width: 320px;
+}
+
+img {
+  align-self: center;
+}
+
+.landing {
+  max-width: 520px;
+}
 /* Responsive */
 
 /*tablet*/
