@@ -161,6 +161,10 @@ img {
 .landing {
   max-width: 520px;
 }
+
+.smaller {
+  max-width: 80%; 
+}
 /* Responsive */
 
 /*tablet*/
