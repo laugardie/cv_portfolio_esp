@@ -1,0 +1,89 @@
+#about {
+  max-width: 600px;
+}
+
+#about h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+#about p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 29px;
+  margin-bottom: 25px;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+#about i, a {
+  color:  rgba(38, 38, 38, 0.8);
+}
+
+#about i {
+  margin-right: 5px;
+}
+
+.curriculumLink {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.curriculumLink:hover {
+  color: #d2a0a4;
+}
+/* Responsive */
+
+/*tablet*/
+
+@media screen and (max-width: 620px) {
+
+  header {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  #about {
+    max-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  header {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  #about {
+    max-width: 450px;
+  }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 420px) {
+  header {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  #about {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  #about {
+    max-width: 300px;
+  }
+
+}

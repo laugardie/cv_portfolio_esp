@@ -1,0 +1,459 @@
+body {
+  font-family: OpenSans, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: rgba(38, 38, 38, 0.8);
+}
+
+/* Menu */
+.header {
+  display: flex;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 84px;
+  margin-bottom: 75px;
+}
+
+#logo img  {
+  width: 130px;
+  height: 130px;
+  opacity: 0.9;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu li {
+  list-style-type: none;
+}
+
+#menu li a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(38, 38, 38, 0.8);
+  margin: 28px 0 0 28px;
+}
+
+.active {
+  color: main-color;
+  border-bottom: solid 2px #cba2a5;
+}
+
+#menu li a:hover {
+  color: #cba2a5;
+}
+
+
+/* Hero */
+
+.hero h1 {
+  font-size: 32px;
+  font-weight: 400px;
+  line-height: 45px;
+  margin-bottom: 1.1%;
+}
+
+#hero-text{
+  max-width: 900px;
+}
+
+.color-touch {
+  color: #cba2a5;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.hero p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.hero p a {
+  text-decoration-color: #cba2a5;
+}
+
+.hero p span:hover {
+  color: #e7c9cb;
+}
+
+/* Projects */
+
+.projects {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-items {
+  max-width:960px;
+  display: grid;
+  grid-gap: 76px 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+.item{
+  position: relative;
+
+}
+
+.item h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 14px;
+}
+
+.item p {
+  line-height: 30px;
+}
+
+.item img {
+  width: 100%;
+  height: 329px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.tag {
+  font-size: 18px;
+  font-weight: 600;
+  color: #d2a0a4;
+  margin-top: 18px;
+}
+
+.item{
+  position: relative;
+}
+
+.hover-color {
+  width: 470px;
+  height: 329px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background: rgb(210,160,164,0.8);
+  transition: opacity .2s linear;
+  opacity: 0;
+  max-width: 100%;
+}
+
+.hover-color:hover {
+  opacity: 1;
+}
+
+.read-more {
+  color: white;
+  width: 258px;
+  border: solid 1.5px white;
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+  padding: 20px 60px;
+  box-sizing: border-box;
+}
+
+.read-more:hover {
+  color: #d2a0a4;
+  border: solid 1px white;
+  background-color: white;
+}
+
+#project1{
+  background-image: url(../img/big_shot_3_4x.png)
+}
+
+/* Footer */
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+#footer h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Responsive */
+
+/*tablet*/
+
+@media screen and (max-width: 992px) {
+  header {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .projects-items {
+    max-width:700px;
+  }
+
+  #footer {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  header {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .projects-items {
+    max-width:600px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+  .main-navigation {
+    margin-top: 64px;
+    margin-bottom: 45px;
+  }
+
+  .projects {
+    margin-top: 50px;
+  }
+
+  .item h2, p {
+    font-size: 22px;
+  }
+
+  #footer div h4, p {
+    font-size: 20px;
+  }
+
+  #footer {
+    max-width: 600px;
+  }
+
+
+}
+
+@media screen and (max-width: 620px) {
+  header {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .projects-items {
+    max-width:500px;
+    grid-gap: 56px 0px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer div {
+    text-align: center;
+  }
+
+  #footer h4 {
+    line-height: 10px;
+    margin-top: 25px;
+  }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 420px) {
+
+  .main-navigation {
+    margin: 16px 0 26px 0;
+  }
+
+  header {
+    max-width: 360px;
+    margin: 0 auto;
+    }
+
+  #logo img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .hero {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .projects-items {
+    max-width:360px;
+    grid-gap: 56px 0px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .projects {
+    margin-top: 35px;
+  }
+
+  .item h2 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .item p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .tag {
+    margin-top: 12px;
+  }
+
+  #footer {
+      display: flex;
+      flex-direction: column;
+      margin-top: 120px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #footer div {
+    text-align: center;
+  }
+
+  #footer h4 {
+    line-height: 10px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main-navigation {
+    margin: 16px 0 26px 0;
+  }
+
+  header {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  #logo img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .hero {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .projects-items {
+    max-width:360px;
+    grid-gap: 56px 0px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .projects {
+    margin-top: 35px;
+  }
+
+  .projects-items {
+    max-width:320px;
+    grid-gap: 56px 0px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .projects {
+    margin-top: 35px;
+  }
+
+  .item h2 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .item p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .tag {
+    margin-top: 12px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    flex-direction: column;
+    align-items: center;
+}
+
+  #footer div {
+    text-align: center;
+  }
+
+  #footer h4 {
+    line-height: 10px;
+    margin-top: 30px;
+  }
+
+}
