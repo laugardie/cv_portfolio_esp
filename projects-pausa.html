@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <script src="./js/main.js"></script>
+    <title>Laura Garcia Dieguez</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-navigation container">
+        <div id="logo">
+          <img src="img/laura-logo.svg" alt="Laura's logo" />
+        </div>
+        <ul id="menu">
+          <li><a href="./index.html">Portfolio</a></li>
+          <li><a href="./about.html">Sobre mí</a></li>
+          <!-- <li><a href="#">Fun facts</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <div class="project-view container">
+      <h3 class="tag">Funcionalidad</h3>
+      <h1>Whatsapp Encuestas</h1>
+      <img src="./img/whatsappappmai.png" alt="whatsapp encuestas"/>
+      <p>¿Te ha pasado alguna vez que te cuesta muchísimo organizarte con tus amigos para decidir en que fecha vais a hacer un plan? ¿Acabas con tu grupo de Whatsapp lleno de listas interminables con datos que se pierden? Si tu respuesta es que sí, necesitas <span class="bold">Whatsapp encuestas</span> en tu vida.
+        Whatsapp encuestas es un proyecto de 4 días realizado durante el <span class="bold">Bootcamp de UX/UI de Ironhack</span> junto a mi compañero Miguel Durán Pardo.</p>
+      <h2 class="section">Brief</h2>
+      <p>
+        <span class="italics">Whatsapp</span> es una aplicación de mensajería que fue fundada en 2009 por Brian Acton y Jan Koum. Pasó a formar parte de <span class="italics">Facebook</span> en 2014, aunque continúa operando como una aplicación independiente.
+Actualmente cuenta con más de 1.500 millones de usuarios en todo el mundo y con una media de 30.000 millones de mensajes diarios. La misión de <span class="italics">Whatsapp</span> es crear un mundo mejor conectado a través de una mensajería simple, segura y confiable.
+El objetivo de este proyecto es añadir una nueva funcionalidad basada en las necesidades de los usuarios de <span class="italics">Whatsapp</span>, manteniéndonos en sintonía con la marca.
+      </p>
+      <img src="./img/whatsapp header.png" alt="whatsapp"/>
+      <h2>El Problema</h2>
+      <span class="quote">La dificultad para tomar decisiones en grupo en Whatsapp.</span>
+      <p>
+        <span class="italics">Whatsapp</span> es la aplicación de mensajería número uno en España. Muchos usuarios utilizan los grupos de <span class="italics">Whatsapp</span> para decidir fechas de un plan, el destino de un viaje o un regalo de cumpleaños. Detectamos que a la hora de tomar decisiones en grupo hay varios problemas:
+      </p>
+      <ul class="bulletpoints">
+        <li>Es difícil organizar a los participantes y suele llevar bastante tiempo cuando los grupos son grandes.</li>
+        <li>Hay usuarios que no se enteran de los planes.</li>
+        <li>Cuando se crean listas para hacer recuentos, los usuarios tienen que copiar y pegar la lista, y muchas veces se acaban perdiendo algunos datos en el proceso.</li>
+      </ul>
+      <h2 class="section">La solución</h2>
+      <p>La solución que proponemos es crear una función de encuesta integrada dentro de la propia aplicación para reducir el tiempo y el esfuerzo que tienen que hacer los usuarios a la hora de tomar decisiones en grupo.</p>
+      <img src="./img/whatsaap solución.png" alt="whatsapp encuestas"/>
+      <h4>Design Process</h4>
+      <h2>UX Blueprint</h2>
+      <p>
+          Comenzamos elaborando el <span class="italics">UX Blueprint</span>, que nos ayudó a definir la estrategia. Analizamos cómo el diseño de esta nueva funcionalidad beneficiará al negocio aportando valor a los clientes y las herramientas que utilizaremos a lo largo del proceso para llegar a nuestro objetivo.
+      </p>
+      <img src="./img/ux blueprint whatsapp.jpeg" alt="ux blueprint" />
+      <h2>Competitive Analysis</h2>
+      <p>
+          Analizamos otras aplicaciones de mensajería y encuestas para ver qué características podríamos incluir en nuestra solución y cómo competir con otras aplicaciones de chat.
+      </p>
+      <p>
+          Al analizar varias competidores – <span class="italics">Facebook Messenger, Telegram y Line</span> –descubrimos que todas tienen la funcionalidad de encuestas en grupo. Vemos que Whatsapp se encuentra en desventaja con su competencia ofreciendo menos funcionalidades. Así que tenemos la oportunidad de poder añadir esta funcionalidad con la que aumentar la satisfacción de los usuarios de <span class="italics">Whatsapp</span> y atraer a nuevos usuarios.
+      </p>
+      <p>Para poder destacar frente a nuestros competidores, vimos que la función de encuestas tenía que ser fácil de usar, clara y con la opción de poder cambiar tu respuesta, ya que otras aplicaciones eran un poco más complejas y sin posibilidad de cambiar el voto.</p>
+      <h2 class="section">User Flow</h2>
+      <p>Creamos un <span class="italics"> user flow</span> para identificar las áreas conflictivas en los pasos a la hora de tomar una decisión en grupo.</p>
+      <p>En este <span class="italics">user flow</span> actual descubrimos las siguientes áreas de fricción:</p>
+      <ul class="bulletpoints">
+          <li>Tener que crear un lista con las sugerencias en un espacio reducido.</li>
+          <li>Tener que copiar y pegar la lista con la posibilidad de que se pierdan datos.</li>
+          <li>No saber si todo el mundo ha contestado.</li>
+        </ul>
+      <img src="./img/user flow 1.png" alt="user flow 1">
+      <p>En el siguiente <span class="italics">user flow</span> podemos ver representado los pasos que daría el usuario con la funcionalidad de encuestas implementada en la aplicación. Como podemos ver el usuario tiene que realizar menos pasos y la tarea se vuelve mucho más simple, sencilla y cómoda.
+      </p>
+      <img src="./img/user flow 2.png" alt="user flow 2">
+      <h2 class="section">Brand Analysis</h2>
+      <p>Para poder añadir esta nueva funcionalidad tal y como el equipo de <span class="italics"> Whatsapp</span> lo haría, hicimos una investigación sobre su misión, filosofía y sus principios de diseño.</p>
+      <span class="quote">simple, personal, connection. –Whatsapp</span>
+      <p>El objetivo de <span class="italics">Whatsapp</span> es crear un aplicación de mensajería simple, segura y de confianza que permita estar en contacto con familiares y amigos. Cada decisión del producto se basa en el deseo de permitir que las personas puedan comunicarse en cualquier parte del mundo sin barreras.</p>
+      <p>El diseño es simple y fácil de usar, de tal manera que <span class="italics">Whatsapp</span> no necesita explicar a sus usuarios ninguna de sus funciones.</p>
+      <p>El tono de voz que usan es un lenguaje plano, sencillo y concreto para describir las acciones que el usuario puede realizar. No incluye nada que pueda causar distracción o confusión y sólo usa el texto necesario para expresar el mensaje.</p>
+      <p>En cuanto a la paleta de colores, su color primario es verde –<span class="italics">verde Whatsapp</span>. Utilizan este color ya que es un color tranquilizador y amigable. También usan otra serie de colores para indicar diferentes intenciones pero usándolos con mayor precaución.</p>
+      <img src="./img/color palette.png" alt="color palette">
+      <p>La tipografía que utilizan en su chat es <span class="italics">Helvetica Neue</span>, con diferentes tamaños y pesos para organizar la información. <span class="italics">Helvetica Neue</span> es una typeface clara y accesible.</p>
+      <img src="./img/typography.png" alt="typography">
+      <p>Los botones son redondos y sombreados para crear mayor énfasis.</p>
+      <img src="./img/buttons.png" alt="buttons">
+      <p>En resumen, el diseño de la funcionalidad de encuestas en <span class="italics">Whatsapp</span> debe seguir los siguientes principios:</p>
+      <ul class="bulletpoints">
+          <li>La interfaz debe ser nativa al dispositivo del usuario, en este caso Android.</li>
+          <li>La funcionalidad debe ser sencilla.</li>
+          <li>Las características de la funcionalidad deben ser obvias y naturales sin necesidad de guía.</li>
+        </ul>
+      <h2 class="section">Navegando la funcionalidad</h2>
+      <ul class="bulletpoints">
+          <li>El usuario entra en el grupo, hace click en el icono de la parte superior para ver más opciones y en el menú desplegable encuentra “Encuestas del grupo”.</li>
+          <li>En la página de encuestas de grupo puede ver otras encuestas y crear una haciendo click en el icono de añadir. Alternativamente, puede crear una nueva encuesta haciendo click en la barra superior con el nombre del grupo para entrar en los detalles del grupo. Una vez ahí, puede seleccionar “crear nueva encuesta” debajo de “añadir participantes”.</li>
+      </ul>
+      <img src="./img/navegando la funcionalidad 1.png" alt="whatsapp encuestas">
+      <ul class="bulletpoints">
+          <li>Para crear la encuesta el usuario tiene que rellenar el título y las opciones, con la posibilidad de ordenar las opciones fácilmente moviéndolas. El usuario puede elegir ente encuesta múltiple o única y encuesta anónima o pública.</li>
+      </ul>
+      <img src="./img/navegando la funcionalidad 2.png" alt="whatsapp encuestas">
+      <ul class="bulletpoints">
+          <li>Una vez publicada la encuesta el usuario puede seleccionar la opción que desee y cambiarla si quisiera.</li>
+          <li>En las encuestas del grupo se pueden ver el listado de encuestas y diferenciar las encuestas de activas, en blanco, de no activas, en gris.</li>
+      </ul>
+      <img src="./img/navegando la funcionalidad 3.png" alt="whatsapp encuestas">
+      <p>A continuación puedes ver la última versión, con el flow de usuario desde que crea una encuesta, elige la opción y comprueba la lista y estados de las encuestas.</p>
+      <video width="420" height="auto" controls autoplay>
+          <source src="./img/whatsapp gif.mp4" type="video/mp4">
+      </video>
+      <h2 class="section">Próximos Pasos</h2>
+      <p>Aunque estamos muy satisfechos con el resultado y recepción de nuestro último prototipo, ningún diseño es perfecto y deseamos seguir mejorándolo con nuevas ideas y feedback. Por eso nos gustaría poder realizar otro <span class="italics">Usability Test</span> a 5 personas para seguir iterando el diseño y mejorar la funcionalidad.</p>
+      <p>Algunas funciones que nos gustaría probar son:</p>
+      <ul class="bulletpoints">
+          <li>Poder ver los miembros que faltan por votar.</li>
+          <li>Poder establecer una fecha de vencimiento y recordatorios para quienes no han votado aún.</li>
+          <li>Mejorar la forma visual de la encuesta para destacar la opción con más votos.</li>
+          <li>Buscar una forma mejor con la que representar la cantidad de votos de cada opción.</li>
+      </ul>
+      <h2 class="section">Aprendizajes</h2>
+      <p>Este <span class="italics">case study</span> me ha servido para aprender la importancia de hacer un buen research para conocer los valores y los principios de diseño de una marca antes de comenzar a crear cualquier diseño. Así podemos diseñar algo que sea consistente con lo que ya está diseñado.</p>
+      <p>A la vez, la fase de testear con los usuarios me parece imprescindible para iterar en el diseño consiguiendo mejorar la experiencia basándonos en las necesidades del usuario.</p>
+      <h4>STAGE 2</h4>
+      <h2>Research and development of the persona</h2>
+      <p>
+        This is a long description of the project with the problem that we are
+        trying to solve. This is a long description of the projectthat we are
+        trying to solve. The project with the problem that we are trying to
+        solve. This is a long description of the project with the problem that
+        we are trying to solve. Long description of the project with the problem
+        that we are trying to solve. This is a long description of the project.
+      </p>
+      <img src="./img/smarthome_shot_4x.png" alt="" />
+      <p>
+        This is a long description of the project with the problem that we are
+        trying to solve. This is a long description of the projectthat we are
+        trying to solve. The project with the problem that we are trying to
+        solve. This is a long description of the project with the problem that
+        we are trying to solve. Long description of the project with the problem
+        that we are trying to solve. This is a long description of the project.
+      </p>
+      <p>
+        This is a long description of the project with the problem that we are
+        trying to solve. This is a long description of the projectthat we are
+        trying to solve. The project with the problem that we are trying to
+        solve. This is a long description of the project with the problem that
+        we are trying to solve. Long description of the project with the problem
+        that we are trying to solve. This is a long description of the project.
+      </p>
+    </div>
+    <div class="other-projects container">
+      <h5>You may also like</h5>
+      <div class="suggested">
+        <div id='image-card1' class="suggested-card">
+          <div class="hover-color-small">
+            <a class="read-more-small" href="#">Read More</a>
+          </div>
+        </div>
+        <div id='image-card2' class="suggested-card">
+          <div class="hover-color-small">
+            <a class="read-more-small" href="#">Read More</a>
+          </div>
+        </div>
+        <div id='image-card3' class="suggested-card">
+          <div class="hover-color-small">
+            <a class="read-more-small" href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="container">
+      <div>
+        <h4>UX/UI Designer</h4>
+        <p>Laura García Diéguez</p>
+      </div>
+      <div>
+        <h4>Email</h4>
+        <p>laugardie89@gmail.com</p>
+      </div>
+      <div>
+        <h4>Location</h4>
+        <p>Madrid</p>
+      </div>
+    </footer>
+  </body>
+</html>

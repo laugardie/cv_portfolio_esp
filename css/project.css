@@ -29,8 +29,9 @@
 }
 
 .project-view p {
-  line-height: 32px;
+  line-height: 40px;
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .project-view h4 {
@@ -103,6 +104,35 @@
   color: #d2a0a4;
   border: solid 1px white;
   background-color: white;
+}
+
+.italics {
+font-style: italic;
+font-weight: 400;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 5px solid #d2a0a4;
+}
+
+.bulletpoints {
+  list-style-type: disc;
+  font-size: 20px;
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+video {
+  align-self: center;
 }
 
 /* Responsive */

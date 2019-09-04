@@ -6,6 +6,7 @@
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 40px;
+  line-height: 45px;
 }
 
 #about p {
@@ -32,7 +33,11 @@
   font-size: 18px;
 }
 
-.curriculumLink:hover {
+#about i:hover {
+  color: #d2a0a4;
+}
+
+#about a:hover {
   color: #d2a0a4;
 }
 /* Responsive */
