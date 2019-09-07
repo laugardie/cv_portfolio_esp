@@ -59,51 +59,85 @@
 
 /*tablet*/
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 767.98px) {
 
   header {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
   }
 
   #about {
-    max-width: 500px;
+    max-width: 600px;
   }
+
+  #about h1 {
+    font-size: 28px;
+  }
+
+  #about p {
+    font-size: 18px;
+  }
+
+  #about h2 {
+    font-size: 22px;
+  }
+
+  .bulletpoints {
+    font-size: 18px;
+  }
+
+  .curriculumLink {
+    font-size: 16px;
+  }
+
+  #menu li a{
+    font-size: 16px;
+  }
+
 }
 
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 575.98px) {
   header {
-    max-width: 450px;
+    max-width: 400px;
     margin: 0 auto;
   }
 
   #about {
-    max-width: 450px;
+    max-width: 400px;
   }
+
+  #about h1 {
+    font-size: 24px;
+  }
+
+  #about p {
+    font-size: 16px;
+  }
+
+  #about h2 {
+    font-size: 20px;
+  }
+
+  .bulletpoints {
+    font-size: 16px;
+  }
+
+  #footer {
+    margin: 100px 0 40px 0;
+  }
+
 }
 
 /*mobile*/
 
 @media screen and (max-width: 420px) {
   header {
-    max-width: 360px;
-    margin: 0 auto;
-  }
-
-  #about {
-    max-width: 360px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  header {
     max-width: 320px;
     margin: 0 auto;
   }
 
   #about {
-    max-width: 300px;
+    max-width: 320px;
   }
-
 }
