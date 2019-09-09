@@ -337,7 +337,6 @@ body {
 /*mobile*/
 
 @media screen and (max-width: 420px) {
-
   .main-navigation {
     margin: 16px 0 26px 0;
   }
@@ -412,5 +411,58 @@ body {
   #footer h4 {
     line-height: 10px;
     margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #menu li a {
+    font-size: 16px;
+  }
+
+  .main-navigation {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .projects-items {
+    max-width: 300px;
+  }
+
+  .hero h1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+  .item h2 {
+    font-size: 18px;
+  }
+
+  .item p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .tag {
+    font-size: 14px;
+  }
+
+  #footer {
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
 }

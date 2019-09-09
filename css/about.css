@@ -141,3 +141,20 @@
     max-width: 320px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  header {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #about h1 {
+    line-height: 30px;
+    font-size: 22px;
+  }
+
+  #about {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
